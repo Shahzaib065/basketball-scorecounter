@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "digital";
+	src: url("./digital-7.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+#home-score {
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-radius: 5px;
+    color: #F94F6D;
+    margin: 20px 20px 20px 26px; 
+    font-family: digital;
+    font-size: 90px;
+    font-weight: 400;
+    width: 155px;
+}
+
+#guest-score {
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-radius: 5px;
+    color: #F94F6D;
+    margin: 20px 20px 20px 26px; 
+    font-family: digital;
+    font-size: 90px;
+    font-weight: 400;
+    width: 155px;
+}
+
+
+.container {
+    color: white;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+}
+
+.col-container {
+    display: flex;
+}
+
+.home {
+    margin: 0 50px 0 82px;
+}
+
+.guest {
+    margin: 0 82px 0 50px;
+}
+
+.title-home {
+    font-family: sanss;
+    font-size: 36px;
+    margin: 68px 0 21px 0;
+}
+
+.title-guest {
+    font-family: sanss;
+    font-size: 36px;
+    margin: 68px 0 21px 0;
+}
+
+#reset-btn {
+    width: 130px;
+    height: 32px;
+    padding: 0;
+}
+
+button {
+    font-family: digital;
+    color: white;
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px white;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin: 0 4px 0 4px;
+    
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: center;
+    margin: 0 0 0 7.8px;
+}
+
+.reset {
+    background: #0C4A6E;
+    padding: 25px
+}
+
+button:hover {
+    background: #9AABD8;
+    color: #1B244A;
+    box-shadow: 0px 0px 0px white;
+}
