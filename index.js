@@ -54,3 +54,7 @@ function resetBtn() {
     guestScore = 0
     guestScoreEl.textContent = guestScore
 }
+
+if (homeScoreEl > guestScoreEl) {
+    homeScoreEl = "green"
+}
